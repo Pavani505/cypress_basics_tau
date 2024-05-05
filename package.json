@@ -1,0 +1,15 @@
+{
+  "name": "cypress_basics_tau",
+  "version": "1.0.0",
+  "description": "1 - Be sure you have node installed, you can check by running the command 'node -v'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.1"
+  }
+}
