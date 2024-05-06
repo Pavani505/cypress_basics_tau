@@ -9,8 +9,7 @@ coverage
 cypress/screenshots
 cypress/videos
 cypress/downloads
-backend/data/*
-# backend/data/uploaded/*
+backend/data/uploaded/*
 .env
 .vscode/*
 
