@@ -36,3 +36,14 @@ Examples CSS selector:
   cy.get('#board-1')
   # for other attributes '[theAttribute=value]'
   cy.get('[data-cy=board-item]')
+
+There are other examples in the tests
+
+# -------------------------Examples on how can run the tests---------------------------------------
+
+npx cypress open -> Run the application
+
+npx cypress run  -> Run all the tests in headless mode
+  examples: npx cypress run --browser=firefox
+
+npx cypress run --browser=edge --headed

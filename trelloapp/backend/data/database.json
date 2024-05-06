@@ -1,34 +1,14 @@
 {
   "boards": [
     {
-      "name": "new board",
+      "name": "different board",
       "user": 0,
-      "starred": false,
-      "created": "2024-05-05",
+      "starred": true,
+      "created": "2024-05-06",
       "id": 1
     }
   ],
-  "cards": [
-    {
-      "order": 0,
-      "boardId": 1,
-      "listId": 1,
-      "name": "bread",
-      "created": "2024-05-05",
-      "deadline": "2024-05-08",
-      "description": "",
-      "completed": true,
-      "id": 1
-    }
-  ],
-  "lists": [
-    {
-      "boardId": 1,
-      "name": "groceries",
-      "order": 0,
-      "created": "2024-05-05",
-      "id": 1
-    }
-  ],
+  "cards": [],
+  "lists": [],
   "users": []
 }

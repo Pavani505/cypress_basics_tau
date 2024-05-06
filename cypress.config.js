@@ -8,6 +8,11 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:3000',
     viewportHeight: 550,
     viewportWidth: 660,
-    experimentalStudio: true
+    experimentalStudio: true,
+    defaultCommandTimeout: 10000,
+    video: true
   },
 });
+
+
+require('@applitools/eyes-cypress')(module);
